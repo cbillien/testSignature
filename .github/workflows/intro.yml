@@ -2,6 +2,7 @@ name: Insnall and build
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   build:
